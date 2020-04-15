@@ -1,6 +1,7 @@
 body{
 
-	background-color: #FAE5D3;
+	background-image: url("../img/bgr2.jpg");
+	background-size: cover;
 	font-family: Cambria;
 }
 
@@ -20,7 +21,7 @@ body{
 .tabla{
 	width: 100%;
 	height: auto;
-	margin-left: 20px;
+border-radius: 10px;
 }
 
 .table{

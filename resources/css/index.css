@@ -1,4 +1,8 @@
 body{
     background-image: url('img/signup.png');
-   
+
+}
+
+.card-img{
+    border-radius: 10px !important;
 }

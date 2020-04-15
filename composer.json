@@ -25,7 +25,7 @@
         "latte/latte": "^2.7",
         "ralouphie/mimey": "^2.1",
         "wyrihaximus/react-http-middleware-response-cache": "^3.1",
-        "mpdf/mpdf": "^8.0"
+        "mpdf/mpdf": "^5.7"
     },
     "autoload": {
         "psr-4": {

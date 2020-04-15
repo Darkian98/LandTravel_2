@@ -109,7 +109,7 @@ final class Guia extends Controller
             
     }
 
-    public static function feed(ServerRequestInterface $request)
+   /* public static function feed(ServerRequestInterface $request)
     {
         $guia_id = getSession()->getContents()['guia_id'];
         return db()->query('SELECT * FROM feed WHERE guia_id = ?',[$guia_id])
@@ -117,7 +117,7 @@ final class Guia extends Controller
                 return SimpleResponse::OK($fechas)->toJson();
             });
     }
-
+*/
     public static function completar(ServerRequestInterface $request)
     {
         $data = $request->getParsedBody();
